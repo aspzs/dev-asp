@@ -1,0 +1,145 @@
+@media only screen and (min-width: 1200px) {
+    .trabajos{
+        width: 80%;
+        margin-left: 9%;
+    }
+    .bienvenida1{
+        width: 170%;
+    }
+
+    .bienvenida{
+        border-bottom: 1px solid rgb(255, 255, 255);
+        border-width: 1px;
+        width: 500px;
+        height: 500px;
+        animation: gradient 5s infinite; /* Ajusta la duración según tus necesidades */
+        border-radius: 100%;
+        margin-left: 20%;
+        padding: 3%;
+    }
+
+    .nombre{
+        text-align: left;
+        text-transform: uppercase;
+        margin-left: 3%;
+        color: #b2b2b2;
+        font-size: 93px;
+        width: 120%;
+    }
+    
+    .descripcion{
+        text-align: right;
+        text-transform: uppercase;
+        color: #5a5f5a;
+        font-size: 73px;
+        /* margin-right: 3%; */
+    }
+
+}
+@media only screen and (min-width: 601px) {
+    .trabajos{
+        width: 80%;
+        margin-left: 9%;
+    }
+    .bienvenida1{
+        width: 170%;
+    }
+
+    .bienvenida{
+        border-bottom: 1px solid rgb(255, 255, 255);
+        border-width: 1px;
+        width: 500px;
+        height: 500px;
+        animation: gradient 5s infinite; /* Ajusta la duración según tus necesidades */
+        border-radius: 100%;
+        margin-left: 20%;
+        padding: 3%;
+    }
+
+    .nombre{
+        text-align: left;
+        text-transform: uppercase;
+        margin-left: 3%;
+        color: #b2b2b2;
+        font-size: 93px;
+    }
+    
+    .descripcion{
+        text-align: right;
+        text-transform: uppercase;
+        color: #5a5f5a;
+        font-size: 73px;
+        /* margin-right: 3%; */
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .bienvenida{
+        border-bottom: 1px solid rgb(255, 255, 255);
+        border-width: 1px;
+        width: 400px;
+        height: 400px;
+        margin-top: 6%;
+        margin-bottom: -25%;
+    }
+    .nombre{
+        text-align: left;
+        text-transform: uppercase;
+        margin-left: 3%;
+        color: #b2b2b2;
+        font-size: 76px;
+    }
+
+    .descripcion{
+        font-size: 33px;
+        /* margin-right: 3%; */
+    }
+    
+    .descripcion1{
+        font-size: 39px;
+    }
+}
+
+/* Define la animación de gradiente */
+@keyframes gradient {
+    0% {
+      background: black;
+    }
+    50% {
+      background: white;
+    }
+    100% {
+      background: black;
+    }
+  }
+  
+
+.bienvenida{
+    animation: gradient 3s infinite; /* Ajusta la duración según tus necesidades */
+    border-radius: 100%;
+}
+.nombre{
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 3%;
+    color: #b2b2b2;
+}
+
+.descripcion{
+    text-align: right;
+    text-transform: uppercase;
+    color: #5a5f5a;
+    /* margin-right: 3%; */
+}
+
+.descripcion1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #8c8e8c;
+    font-size: 39px;
+}
+
+.atlante{
+    z-index: -99;
+}

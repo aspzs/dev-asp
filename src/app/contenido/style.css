@@ -1,0 +1,38 @@
+@media only screen and (min-width: 1200px) {
+
+    .fotito{
+        width: 20%;
+        margin-left: 60%;
+    }
+
+}
+.cartas{
+    background-color: rgb(108, 108, 108);
+    color: rgb(70, 70, 70);
+    border: none;
+    border-radius: 0%;
+}
+
+.tablita{
+    width: 100%;
+    
+}
+
+.putocarusel1{
+    width: 50%;
+    background-color: rgb(42, 159, 79);
+}
+
+.putocarusel{
+    background-color: blue;
+}
+
+.lista{
+    width: 100%;
+    background-color:white;
+
+
+}
+
+.fotito{
+}
